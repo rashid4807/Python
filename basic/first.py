@@ -41,3 +41,27 @@ message = """
 
 """
 print(message)
+#String and fstring
+first = 'John'
+last = 'Smith'
+full_name = first + '[' + last + '] is a coder'
+msg = f'{ first} {last} is a  beginner '
+print(full_name)
+print(msg)
+
+
+#some methods for beginners
+message1 = 'This is learning about methods'
+print(message1.upper())
+print(message1.replace('learning','practicing'))
+print(message1.lower())
+print(message1.title())
+print(message1.find('learning'))
+print(len(message1))
+print('python' in message1)
+print('learning' in message1)
+
+
+
+
+
